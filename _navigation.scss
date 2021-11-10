@@ -1,0 +1,60 @@
+#amice_header{
+  background: sixcolor;
+  .utilidade{
+    span{
+      color: #FFF;
+    }
+  }
+  .navbar-brand{
+    max-width: 130px;
+    img{
+      width: 100%;
+    }
+  }
+  .social{}
+  .navbar{
+    background: $sixcolor;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .nav-item,.menu-item{
+      a{
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
+        font-size: .85rem;
+        padding: 1rem 0.75rem;
+        color: $primarycolor;
+      }
+    }
+    .button_blue{
+      a{
+        background: #0067ac;
+        color: #FFF;
+        text-align: center;
+        font-size: 13px;
+        padding: 1rem 0.75rem;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i{
+          font-size: 20px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+.amice_blue_faixa{
+  background: $primarycolor;
+  color: $thirdcolor;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .social{
+    a{
+      color: $thirdcolor;
+      &:hover{
+        color: $sixcolor;
+      }
+    }
+  }
+}
